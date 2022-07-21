@@ -85,7 +85,9 @@ h1 {
     background-color: hsla(178, 31%, 81%, .2);
 }
 
-.hero {}
+.hero {
+    padding: 20px;
+}
 
 
 
@@ -118,4 +120,18 @@ input:focus {
     box-shadow: 7px 7px 7px #989898;
 }
 
-button {}
+button {
+    height: 30px;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    background-color: var(--dark-sky-blue);
+    border: 0px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
