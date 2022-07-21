@@ -31,6 +31,7 @@ h2 {
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+    background-color: hsla(178, 31%, 81%, .2);
 }
 
 .container {
@@ -48,14 +49,21 @@ body {
 }
 
 .title {
-    height: 100px;
+    height: 120px;
+    width: 100%;
+    position: relative;
+    top: 300px;
     display: flex;
     align-items: center;
     background-color: hsla(178, 31%, 81%, .9);
+
 }
 
 .title img {
-    height: 50%;
+    width: auto;
+    position: relative;
+    top: 15px;
+    background-color: transparent;
 }
 
 h1 {
@@ -82,7 +90,6 @@ h1 {
     flex-direction: column;
     flex: 1;
     justify-content: center;
-    background-color: hsla(178, 31%, 81%, .2);
 }
 
 .hero {
@@ -100,10 +107,11 @@ ul {
     background-color: var(--dark-sky-blue);
     box-shadow: 0px 0px 5px #989898;
     background-color: white;
+    width: auto;
 }
 
 ul li {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
     width: 50%;
 }
 
@@ -111,7 +119,7 @@ input {
     width: 75%;
     height: 2rem;
     font-family: 'Raleway', sans-serif;
-    border: 1px solid #989898;
+    border: 1px solid #c1c1c1;
     border-radius: 5px;
 }
 
@@ -134,4 +142,14 @@ button {
 
 p {
     margin: 20px;
+}
+
+input:required {
+    border-color: red;
+}
+
+a {
+    color: var(--dark-sky-blue);
+    font-weight: bold;
+    text-decoration: none;
 }
